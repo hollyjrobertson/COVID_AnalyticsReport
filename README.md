@@ -13,7 +13,7 @@ $ pip install pandas numpy matplotlib
 $ pip install plotly
 $ pip install -U kaleido
 ```
-If you run into an error with NumPy, changing the version to 1.19.3 fixed the issue for me (1.19.5 is current version (1/29/21))
+If you run into an error with NumPy, changing the version to 1.19.3 fixed the issue for me <br/>(1.19.5 is current version (1/29/21)
 ```
 $ pip install numpy==1.19.3
 ```
