@@ -17,4 +17,14 @@ If you run into an error with NumPy, changing the version to 1.19.3 fixed the is
 ```
 $ pip install numpy==1.19.3
 ```
-To test if everything is set up properly, try running `python generate_report.py`. You should get a fresh report file. You'll have to change `helper.py` to read from the online version of the data if you want to access the previous day (uncomment the BASE_PATH URL and comment BASE_PATH='./data'). You will also have to comment out the hard coded date at the bottom of `generate_report.py` file. I saved it this way so not too many unnecessary requests to the GitHub server were made while testing.
+To test if everything is set up properly, run:
+```
+$ python generate_report.py
+```
+
+You should get a fresh report file (yesterday_covid_report.pdf) in the directory of your code. <br/>
+
+To get LIVE data, You'll have to change `helper.py` to read from the online version of the data. <br/> 
+Uncomment the BASE_PATH URL and comment the BASE_PATH='./data'.<br/> 
+You will also have to comment out the hard coded `yesterday` date at the bottom of `generate_report.py` file. 
+
