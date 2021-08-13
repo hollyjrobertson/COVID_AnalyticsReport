@@ -1,4 +1,5 @@
 # Generate Analytics Report
+A simple Python project that aggregates COVID related data from the CDC.
 <img src="resources/cover_page.jpg" alt="Analytics Report" width="300"/>
 
 ## Setup
